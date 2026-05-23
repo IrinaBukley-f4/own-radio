@@ -44,12 +44,13 @@ html {
   color: #fff;
 }
 .title {
+  font-size: 30px;
   font-weight: 700;
   line-height: 100%;
   text-transform: uppercase;
   text-align: center;
 }
-.promo__title {
+.colored__title {
   margin-top: 52px;
   font-size: 41px;
   color: #f9bf3b;
@@ -103,4 +104,83 @@ html {
 .promo__img {
   margin: 8px auto 0;
   display: block;
+}
+.divider {
+  margin: 0 auto;
+  background-color: #F9BF3B;
+  width: 217px;
+  height: 4px;
+}
+.intensive {
+  background-color: #EFEFEF;
+  padding: 80px 0;
+}
+.intensive .divider {
+  margin-top: 14px;
+}
+.intensive__title {
+  font-weight: 500;
+}
+.intensive__descr {
+  margin-top: 16px;
+  font-weight: 500;
+  font-size: 23px;
+  text-align: center;
+  color: #4a4a4a;
+}
+.intensive__wrapper {
+  margin-top: 42px;
+  display: flex;
+  justify-content: center;
+  gap: 48px;
+}
+.intensive__item {
+  width: 360px;
+}
+.intensive__img {
+  margin: 0 auto;
+  width: 342px;
+  height: 201px;
+  object-fit: cover;
+}
+.intensive__text {
+  margin-top: 15px;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 131%;
+  text-align: center;
+  color: #4a4a4a;
+}
+.why {
+  min-height: 564px;
+  background-color: #000000;
+}
+.why__img {
+  position: absolute;
+  top: 191px;
+  left: -83px;
+  z-index: 1;
+}
+.why__descr {
+  padding: 100px 0 141px;
+  margin: 0 0 0 auto;
+  width: 733px;
+  position: relative;
+  z-index: 2;
+}
+.why .colored__title {
+  font-weight: 700;
+  text-align: right;
+  margin-top: 0px;
+  font-size: 30px;
+}
+.why__text {
+  margin-top: 16px;
+  font-weight: 300;
+  font-size: 16px;
+  text-align: right;
+  color: #fff;
+}
+.why__text.bold {
+  font-weight: 500;
 }
